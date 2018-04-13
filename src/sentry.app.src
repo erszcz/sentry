@@ -1,5 +1,5 @@
 {application, sentry,
- [{description, "An OTP application"},
+ [{description, "A guard application to allow for clean Erlang VM shutdown in a containerised environment"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {sentry_app, []}},
